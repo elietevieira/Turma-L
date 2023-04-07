@@ -1,5 +1,23 @@
-headerb{
-    background-color: #3A1078;
-    color: #D9D9D9;
-    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho {
+    background-image: linear-gradient(#F5F5F5,#4E31AA);
+    color: #3A1078;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabeçalho.logo {
+    width: 25%;
+    height: 25%;
+}
+
+.cabeçalho-itens {
+    font-size: 36px;
+    display:inline-block;
+    margin: 5px;
+    padding-top: 155px;
 }
